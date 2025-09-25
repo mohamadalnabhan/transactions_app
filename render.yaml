@@ -1,16 +1,9 @@
 services:
   - type: web
     name: transactions-project
-<<<<<<< HEAD
     env: docker
     plan: free
     dockerfilePath: ./Dockerfile
-=======
-    env: php
-    plan: free
-    buildCommand: ""
-    startCommand: ""
->>>>>>> 8228f87bc7ad9d928653476440cc3faf707e48ed
     envVars:
       - key: APP_ENV
         value: production
